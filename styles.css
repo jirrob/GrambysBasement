@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+font-family: "Luckiest Guy";
+}
+body {
+	height: 1080px;
+    background: linear-gradient(#00b4ff 50%, #94e0ff);
+    background-size: 200% 200%;
+
+    animation: CORE 19s linear infinite;
+}
+@keyframes CORE {
+    0%{background-position:0% 25%}
+    50%{background-position:50% 70%}
+    100%{background-position:50% 25%}
+}
+button {
+  background-color: #D3D0D1;
+  border: solid #D3D0D1 4px
+}
+button a {
+  color: #B7416A;
+  text-decoration: none; 
+}
+h1 {
+  background: -webkit-linear-gradient(#ceccea, #D3A79F, #D88E45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  background: -webkit-linear-gradient(#ceccea, #D3A79F, #D88E45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+hr {
+  border: solid #0490cc 2px;
+}
+.gradient-text {
+  background: -webkit-linear-gradient(#ceccea, #D3A79F, #D88E45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
