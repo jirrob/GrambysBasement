@@ -35,8 +35,6 @@ h2 {
 hr {
   border: solid #0490cc 2px;
 }
-.gradient-text {
-  background: -webkit-linear-gradient(#ceccea, #D3A79F, #D88E45);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+p {
+  color: linear-gradient(to top, #993366 0%, #ff6699 100%);
 }
