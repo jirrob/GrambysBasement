@@ -36,5 +36,7 @@ hr {
   border: solid #0490cc 2px;
 }
 p {
-  color: linear-gradient(to top, #993366 0%, #ff6699 100%);
+  background: -webkit-linear-gradient(#ff669, #993366);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
