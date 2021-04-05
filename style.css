@@ -35,13 +35,3 @@ h2 {
 hr {
   border: solid #0490cc 2px;
 }
-p {
-  background: -webkit-linear-gradient(#ff669, #993366);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-font { 
-  background: -webkit-linear-gradient(#ff669, #993366);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
