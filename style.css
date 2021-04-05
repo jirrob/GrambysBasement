@@ -16,6 +16,7 @@ body {
 button {
   background-color: #D3D0D1;
   border: solid #D3D0D1 4px
+  margin-bottom: 15px;
 }
 button a {
   color: #B7416A;
