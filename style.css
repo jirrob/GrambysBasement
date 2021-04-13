@@ -7,7 +7,7 @@ body {
     height: 1080px;
     background: linear-gradient(#00b4ff 50%, #94e0ff);
     background-size: 200% 200% !important;
-    animation: CORE 19s linear infinite;
+    animation: CORE 19s linear infinite
 }
 @keyframes CORE {
     0%{background-position:0% 25%}
