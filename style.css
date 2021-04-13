@@ -24,7 +24,7 @@ button a {
   text-decoration: none; 
 }
 h1 {
-  background: -webkit-linear-gradient(#ceccea, #D3A79F, #D88E45)
+  background: -webkit-linear-gradient(#ceccea, #D3A79F, #D88E45);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
