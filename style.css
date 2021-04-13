@@ -4,10 +4,10 @@ font-family: "Luckiest Guy";
 }
 body {
     height: 1080px;
+    background-color: #92dfff !important;
     background: linear-gradient(#00b4ff 50%, #94e0ff);
     background-size: 200% 200% !important;
     animation: CORE 19s linear infinite;
-    background-color: #92dfff !important;
 }
 @keyframes CORE {
     0%{background-position:0% 25%}
