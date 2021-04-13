@@ -15,7 +15,14 @@
     <title>grambys basement</title>
     <link href="./style.css" rel="stylesheet" type="text/css" media="all">
   </head>
-
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); 
+  document.execCommand("copy");
+} 
+</script>
 <body>
 <br>
 <br>
@@ -29,7 +36,8 @@
 
 <center><h1>TEMPLATE</h1></center>
 <center><h2><font size="6">version: Gramby Test</h2></center>
-<center><p style="color:#C25283; font-size: 26px"<input value="INSERT CODE HERE"></input></p></center>
+<center> <span><p style="color:#C25283; font-size:26px"> BUILD NAME <input type="text" value="CODE GOES HERE" id="myInput">
+<button onclick="myFunction()">Copy code</button> </p> </span> </center> 
 <center><img src=./images/[  ] width="600" height="310"></img></center>
 <center><p style="color:#C25283; font-size: 32px">Description</p></center>
 <center><p style="color:white; font-size: 26px">DESCRIPTION</p></center>
