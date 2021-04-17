@@ -37,3 +37,12 @@ h2 {
 hr {
   border: solid #0490cc 2px;
 }
+a:link, a:visited {
+  color: #B7416A;
+  text-decoration: none;
+}
+
+a:link:active, a:visited:active {
+  color: #B7416A;
+  text-decoration: none;
+}
