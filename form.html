@@ -16,10 +16,13 @@
     <link href="./style.css" rel="stylesheet" type="text/css" media="all">
   </head>
 <form target="_blank" title="Test form - Fill out in entirety." enctype="multipart/form-data" method="post" action="https://discord.com/api/webhooks/832728771089661955/ihoTzEnr6kpLFhcQB3RAP0N6zrxUhvnkResoS4aSo976_cUVhlnf3maGCiXJtpyCazeU">
-    <div class="form-group"><small class="form-text text-muted">Your username</small><input type="text" class="form-control" name="username" placeholder="Name" required /></div>
-    <div class="form-group"><small class="form-text text-muted">Your build's code</small><input class="form-control" type="code" required /></div>
-    <div class="form-group"><small class="form-text text-muted">Your build's description</small><textarea class="form-control" required></textarea></div>
-    <input type="submit" value="Send" onclick="submit()">
+  <label for="fname">Username</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="lname">Build code</label><br>
+  <input type="text" id="code" name="code">
+  <label for="lname">Description</label><br>
+  <input type="text" id="desc" name="desc">
+  <input type="submit" value="Submit" onclick="submit()">
 
 <script type="text/javascript">
     function submit() {
