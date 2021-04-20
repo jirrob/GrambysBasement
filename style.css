@@ -2,17 +2,30 @@
 * {
 font-family: "Luckiest Guy";
 }
-body {
-    height: 1080px;
-    background-color: #92dfff !important;
-    background: linear-gradient(#00b4ff 50%, #94e0ff);
-    background-size: 200% 200% !important;
-    animation: CORE 19s linear infinite;
+base {
+    background: linear-gradient(179deg, #7cc5f7, #1f91df);
+    background-size: 400% 400%;
+    postion: relative;
+
+    -webkit-animation: CORE 30s ease infinite;
+    -moz-animation: CORE 30s ease infinite;
+    animation: CORE 30s ease infinite;
+}
+
+@-webkit-keyframes CORE {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-moz-keyframes CORE {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
 }
 @keyframes CORE {
-    0%{background-position:0% 25%}
-    50%{background-position:50% 70%}
-    100%{background-position:50% 25%}
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
 }
 button {
   color: #C25283;
