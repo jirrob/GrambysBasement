@@ -3,8 +3,8 @@
 font-family: "Luckiest Guy";
 }
 body {
-    background: linear-gradient(180deg, #92dfff, #00b4ff);
-    background-size: 400% 400%;
+    background: linear-gradient(180deg, #00b4ff, #94e0ff);
+    background-size: 1000% 1000%;
     postion: relative;
 
     -webkit-animation: CORE 30s ease infinite;
@@ -13,19 +13,19 @@ body {
 }
 
 @-webkit-keyframes CORE {
-    0%{background-position:49% 0%}
-    50%{background-position:52% 100%}
-    100%{background-position:49% 0%}
+    0%{background-position:35% 0%}
+    50%{background-position:35% 35%}
+    100%{background-position:35% 0%}
 }
 @-moz-keyframes CORE {
-    0%{background-position:49% 0%}
-    50%{background-position:52% 100%}
-    100%{background-position:49% 0%}
+    0%{background-position:36% 0%}
+    50%{background-position:35% 35%}
+    100%{background-position:36% 0%}
 }
 @keyframes CORE {
-    0%{background-position:49% 0%}
-    50%{background-position:52% 100%}
-    100%{background-position:49% 0%}
+    0%{background-position:36% 0%}
+    50%{background-position:35% 35%}
+    100%{background-position:36% 0%}
 }
 button {
   color: #C25283;
