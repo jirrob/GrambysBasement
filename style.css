@@ -2,7 +2,7 @@
 * {
 font-family: "Luckiest Guy";
 }
-base {
+body {
     background: linear-gradient(180deg, #92dfff, #00b4ff);
     background-size: 400% 400%;
     postion: relative;
